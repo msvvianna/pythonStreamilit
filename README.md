@@ -1,4 +1,4 @@
-# 09/10/2024 - CURSO DE STREAMILIT - DAY 1
+# 13/10/2024 - CURSO DE STREAMILIT - DAY 1
 
 ## 1 - A linguagem Python
 
