@@ -1,4 +1,4 @@
-# 13/10/2024 - CURSO DE STREAMILIT - DAY 1
+# 14/10/2024 - CURSO DE STREAMILIT - DAY 1
 
 ## 1 - A linguagem Python
 
@@ -83,7 +83,6 @@ python --version
 
 - sudo apt update
 - sudo apt install python3
-
 
 ## 4 - Primeiro Programa
 
