@@ -95,3 +95,156 @@ print("Aprendendo a Linguagem Python")
     divertido
 """
 ```
+
+# 15/10/2024 - CURSO DE STREAMILIT - DAY 2
+
+## 5 - Tipos de dados
+
+## Regras para criar variáveis em Python
+
+As regras para criar variáveis em Python são:
+
+1. O nome da variável deve começar com uma letra ou um underscore (`_`).
+2. O nome da variável pode conter letras, números e underscores.
+3. O nome da variável **não pode** começar com um número.
+4. O nome da variável **não pode** conter espaços ou caracteres especiais.
+5. O nome da variável **não pode** ser uma palavra reservada do Python, como `if`, `for`, `print`, etc.
+6. Python diferencia maiúsculas de minúsculas, portanto `variavel` e `Variavel` seriam consideradas variáveis diferentes.
+
+## Criando uma variável
+
+Para criar uma variável, basta atribuir um valor a ela usando o sinal de igual (`=`). Por exemplo: **nome = 'maria'**
+
+```python
+# Pythonflix
+name = "Top Gun Maverick"
+yearLaunch = 2023
+noteMovie = 9.5
+planIncluded = False
+
+print(name)
+print(yearLaunch)
+
+print(type(name))
+print(type(yearLaunch))
+print(type(noteMovie))
+print(type(planIncluded))
+
+```
+# Resumo dos Tipos de Dados em Python
+
+Python possui diversos tipos de dados embutidos que são usados para armazenar diferentes tipos de informações. Aqui estão os principais:
+
+## Tipos Numéricos
+
+1. **int** (inteiros):
+   - Números inteiros, positivos ou negativos, sem casas decimais.
+   - Exemplo: `a = 5`, `b = -3`
+
+2. **float** (ponto flutuante):
+   - Números com casas decimais.
+   - Exemplo: `c = 3.14`, `d = -0.99`
+
+3. **complex** (números complexos):
+   - Números no formato `a + bj`, onde `a` é a parte real e `b` a parte imaginária.
+   - Exemplo: `z = 2 + 3j`
+
+## Tipos de Sequência
+
+1. **str** (strings):
+   - Cadeias de texto, entre aspas simples ou duplas.
+   - Exemplo: `nome = "Maria"`, `cidade = 'São Paulo'`
+
+2. **list** (listas):
+   - Coleção ordenada e mutável de itens, que podem ser de tipos diferentes.
+   - Exemplo: `frutas = ["maçã", "banana", "laranja"]`
+
+3. **tuple** (tuplas):
+   - Coleção ordenada e imutável de itens.
+   - Exemplo: `cores = ("vermelho", "azul", "verde")`
+
+4. **range**:
+   - Representa uma sequência de números, normalmente usado em laços.
+   - Exemplo: `r = range(0, 10)`
+
+## Tipos de Mapeamento
+
+1. **dict** (dicionário):
+   - Coleção desordenada de pares chave-valor, mutável.
+   - Exemplo: `pessoa = {"nome": "Ana", "idade": 30}`
+
+## Tipos de Conjuntos
+
+1. **set** (conjunto):
+   - Coleção desordenada e não indexada de itens únicos.
+   - Exemplo: `letras = {"a", "b", "c"}`
+
+2. **frozenset**:
+   - Igual ao `set`, mas imutável.
+   - Exemplo: `fset = frozenset(["a", "b", "c"])`
+
+## Tipos Booleanos
+
+1. **bool** (booleano):
+   - Representa os valores lógicos `True` e `False`.
+   - Exemplo: `verdadeiro = True`, `falso = False`
+
+## Tipos Binários
+
+1. **bytes**:
+   - Sequência imutável de números inteiros de 0 a 255.
+   - Exemplo: `b = b"hello"`
+
+2. **bytearray**:
+   - Semelhante a `bytes`, mas mutável.
+   - Exemplo: `ba = bytearray(5)`
+
+3. **memoryview**:
+   - Fornece uma visão de memória de um objeto de bytes.
+   - Exemplo: `mv = memoryview(b"hello")`
+
+## Outros Tipos
+
+1. **None**:
+   - Representa a ausência de valor ou tipo.
+   - Exemplo: `x = None`
+
+
+## 6 - Utilizando o input
+
+```python
+# Utilizando o Input: input por padrão retorna uma string
+
+name = input("Digite o nome do filme:\n")
+yearLaunch = int(input("Digite o ano de lançamento do filme:\n")) # transformar o tipo para int
+noteMovie = float(input("Digite a nota do filme:\n")) 
+
+print(type(name))
+print(type(yearLaunch))
+print(type(noteMovie))
+```
+
+##  7 - Concatenando valores
+
+```python
+name = input("Digite o nome do filme:\n")
+yearLaunch = int(input("Digite o ano de lançamento do filme:\n"))
+noteMovie = float(input("Digite a nota do filme:\n"))
+
+print("Dados do Filme")
+print("=========================")
+# Alternativa 1
+# print("Nome do filme:",name)
+# print("Ano de lançamento:",yearLaunch)
+# print("Nota do filme:",noteMovie)
+
+#Alternativa 2
+print("Nome do Filme:", name, "\nAno de Lançamento:", yearLaunch, "\nNota do Filme:", noteMovie)
+
+# Alternativa 3
+print(f"Nome do jogo: {name}\n"
+      f"Ano de lançamento: {yearLaunch}\n"
+      f"Nota do filme: {noteMovie}\n"
+      )
+
+```
