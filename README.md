@@ -248,3 +248,4 @@ print(f"Nome do jogo: {name}\n"
       )
 
 ```
+# 16/10/2024 - CURSO DE STREAMILIT - DAY 3
