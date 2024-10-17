@@ -1,4 +1,4 @@
-# 15/10/2024 - CURSO DE STREAMILIT - DAY 1
+# 17/10/2024 - CURSO DE STREAMILIT - DAY 1
 
 ## 1 - A linguagem Python
 
@@ -96,7 +96,7 @@ print("Aprendendo a Linguagem Python")
 """
 ```
 
-# 16/10/2024 - CURSO DE STREAMILIT - DAY 2
+# 18/10/2024 - CURSO DE STREAMILIT - DAY 2
 
 ## 5 - Tipos de dados
 
@@ -248,4 +248,4 @@ print(f"Nome do jogo: {name}\n"
       )
 
 ```
-# 17/10/2024 - CURSO DE STREAMILIT - DAY 3
+# 19/10/2024 - CURSO DE STREAMILIT - DAY 3
