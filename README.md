@@ -1,4 +1,4 @@
-# 03/12/2024 - CURSO DE STREAMILIT - DAY 1
+# 17/12/2024 - CURSO DE STREAMILIT - DAY 1
 
 ## 1 - A linguagem Python
 
@@ -95,7 +95,7 @@ print("Aprendendo a Linguagem Python")
     divertido
 """
 ```
-# 04/12/2024 - CURSO DE STREAMILIT - DAY 2
+# 17/12/2024 - CURSO DE STREAMILIT - DAY 2
 
 ## 5 - Tipos de dados
 
